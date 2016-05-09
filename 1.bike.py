@@ -23,10 +23,6 @@ class Bike(object):
         self.price = price
         self.max_speed = max_speed
         self.miles = 0
-    # def __new__ (self, price, max_speed, miles):
-    #     self.price = 500
-    #     self.max_speed = 5
-    #     self.miles = 0
     def displayInfo(self):
         return "Price:"+str(self.price)+" Max speed:"+str(self.max_speed)+"Total miles:"+str(self.miles)
     def ride(self):
