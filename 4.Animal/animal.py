@@ -12,6 +12,8 @@ class Animal(object):
         print "Name:"+str(self.name)
         print "Health:"+str(self.health)
         return self
-# 
-# animal = Animal('animal')
-# animal.walk().walk().walk().run().run().displayHealth()
+#
+animal = Animal('animal')
+animal.walk().walk().walk().run().run().displayHealth()
+animal.pet()
+animal.fly()

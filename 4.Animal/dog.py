@@ -7,5 +7,5 @@ class Dog(Animal):
     def pet(self):
         self.health+=5
         return self
-# dog = Dog('Ramsey')
-# dog.walk().walk().walk().run().run().pet().displayHealth()
+dog = Dog('Ramsey')
+dog.walk().walk().walk().run().run().pet().displayHealth()
