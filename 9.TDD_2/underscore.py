@@ -32,13 +32,13 @@ _ = Underscore()
 # for i in map(lambda x: x**x, nums): print(i)
 # f = lambda x,y: x**2 + y**2
 # print f(5,6)
-# nums = [2,3,4,5]
+# nums = [1,2,3,4]
 # print list(_.filter(lambda x: x%2==0, nums))
-# nums = [2,3,4,5]
-# print list(_.reject(lambda x: x%2==0, nums))
+nums = [1,2,3,4]
+print list(_.reject(lambda x: x%2==0, nums))
 # nums = [1,2,3,4]
 # print _.map(nums, lambda x: x*2)
-nums = [1,2,3,4,10]
-print _.reduce(nums, lambda x,y: x+y)
+# nums = [1,2,3,4]
+# print _.reduce(nums, lambda x,y: x+y)
 # nums = [1,2,3,4,10, "star"]
-# print _.find(nums, lambda x,y: x==y, nums[4])
+# print _.find(nums, lambda x,y: x==y, nums[2])
